@@ -49,7 +49,7 @@
 
       <div class="d-none d-md-flex align-items-center gap-4">
         <!-- Theme Toggle Button -->
-        <button
+        <!-- <button
           class="theme-toggle"
           (click)="toggleTheme()"
           [title]="'Toggle theme (' + themeService.currentTheme + ')'"
@@ -58,7 +58,7 @@
             [name]="themeService.getThemeIcon()"
             class="theme-icon"
           ></i-lucide>
-        </button>
+        </button> -->
 
         <!-- Show user icon when logged in -->
         <div *ngIf="sessionService.isLoggedIn()" class="position-relative">
