@@ -11,17 +11,17 @@ export class AdminAboutUsComponent {
 
   aboutUs = [
     {
-      image: '../../../assets/about1.jpeg',
+      image: 'assets/about1.jpeg',
       heading: "Country Name will go here..",
       description: "Slider description will go here..",
     },
     {
-      image: '../../../assets/about2.jpeg',
+      image: 'assets/about2.jpeg',
       heading: "Country Name will go here..",
       description: "Slider description will go here..",
     },
     {
-      image: '../../../assets/about3.jpeg',
+      image: 'assets/about3.jpeg',
       heading: "Country Name will go here..",
       description: "Slider description will go here..",
     },

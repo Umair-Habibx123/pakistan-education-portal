@@ -11,10 +11,10 @@ export class SlidersComponent {
   previewImageUrl: string | ArrayBuffer | null = null;
 
   slides = [
-    { logo: '../../../assets/slider.png' },
-    { logo: '../../../assets/slider.png' },
-    { logo: '../../../assets/slider.png' },
-    { logo: '../../../assets/slider.png' },
+    { logo: 'assets/slider.png' },
+    { logo: 'assets/slider.png' },
+    { logo: 'assets/slider.png' },
+    { logo: 'assets/slider.png' },
   ];
 
   @ViewChild('fileInput') fileInput!: ElementRef<HTMLInputElement>;
